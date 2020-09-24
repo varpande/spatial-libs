@@ -70,3 +70,25 @@ There are approximately >100 benchmarks for all the libraries in C++ and it can 
 
 ## Disclaimer
 The benchmarks were run on Ubuntu 18.04 and use Linux specific commands at various places for I/O etc. Operations on non-Linux operating systems may not work.
+
+## Cite
+
+If you liked the work, please cite our paper in your work:
+
+```
+@inproceedings{pandey2020spatiallibs,
+  author    = {Varun Pandey and Alexander van Renen and Andreas Kipf and Alfons Kemper},
+  title     = {An Evaluation of Modern Spatial Libraries},
+  booktitle = {Database Systems for Advanced Applications - 25th International Conference,
+               {DASFAA} 2020, Jeju, South Korea, September 24–27, 2020, Proceedings,
+               Part {II}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12113},
+  pages     = {711--727},
+  publisher = {Springer},
+  year      = {2020},
+  url       = {https://doi.org/10.1007/978-3-030-59416-9_46},
+  doi       = {10.1007/978-3-030-59416-9_46}
+}
+```
+
