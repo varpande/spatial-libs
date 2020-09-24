@@ -14,7 +14,7 @@ We also compare the libraries with an open source implementation of Vantage Poin
 ### Requirements
 
 The following tools are required to be installed on the system:
-1. __Java SDK__: For optimal performance Oracle Java should be prefered ([guide for setup on ubuntu](http://ubuntuhandbook.org/index.php/2019/03/install-oracle-java-12-ubuntu-18-04-16-04/)).
+1. __Java SDK__: For optimal performance Oracle Java should be prefered ([guide for setup on ubuntu](http://ubuntuhandbook.org/index.php/2019/10/how-to-install-oracle-java-13-in-ubuntu-18-04-16-04-19-04/)).
 2. __Maven__: `sudo apt install maven`
 3. __gtest__: `sudo apt install libgtest-dev`
 
