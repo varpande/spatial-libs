@@ -33,10 +33,16 @@ download_project(PROJ tcmalloc
 option(BENCHMARK_ENABLE_TESTING OFF)
 option(GEOS_ENABLE_TESTS OFF)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}")
+
+# enforce build type as Release
+if(NOT CMAKE_BUILD_TYPE)
+        set(CMAKE_BUILD_TYPE Release)
+endif()
+
 add_subdirectory(${geos_SOURCE_DIR} ${geos_BINARY_DIR})
 add_subdirectory(${s2_SOURCE_DIR} ${s2_BINARY_DIR})
 add_subdirectory(${benchmark_SOURCE_DIR} ${benchmark_BINARY_DIR})
+
 #add_subdirectory(${tcmalloc_SOURCE_DIR} ${tcmalloc_BINARY_DIR})
 #add_subdirectory(${tcmalloc_BINARY_DIR})
 
