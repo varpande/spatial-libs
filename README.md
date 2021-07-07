@@ -73,7 +73,7 @@ The benchmarks were run on Ubuntu 18.04 and use Linux specific commands at vario
 
 ## Cite
 
-If you liked the work, please cite our paper in your work:
+If you liked the work, please cite our papers in your work:
 
 ```
 @inproceedings{pandey2020spatiallibs,
@@ -89,6 +89,23 @@ If you liked the work, please cite our paper in your work:
   year      = {2020},
   url       = {https://doi.org/10.1007/978-3-030-59416-9_46},
   doi       = {10.1007/978-3-030-59416-9_46}
+}
+```
+
+```
+@article{pandey2021howgoodlibs,
+  author    = {Varun Pandey and
+               Alexander van Renen and
+               Andreas Kipf and
+               Alfons Kemper},
+  title     = {How Good Are Modern Spatial Libraries?},
+  journal   = {Data Sci. Eng.},
+  volume    = {6},
+  number    = {2},
+  pages     = {192--208},
+  year      = {2021},
+  url       = {https://doi.org/10.1007/s41019-020-00147-9},
+  doi       = {10.1007/s41019-020-00147-9}
 }
 ```
 
